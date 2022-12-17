@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/2022-DB-Design/Backend#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "knex": "^2.3.0",
+    "pg": "^8.8.0"
   }
 }

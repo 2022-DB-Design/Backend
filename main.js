@@ -1,5 +1,5 @@
 const port = 8100;
-const fs = require("fs");
+const pg = require("pg");
 const express = require("express");
 const app = express();
 
@@ -7,14 +7,18 @@ const app = express();
 app.use(express.static(__dirname));
 app.use(express.static("res"));
 
+// TO DO: pg 혹은 knex로 스키마 연동 작업해야 함
+
 app.get('/', (req, res) => {
   if (res.statusCode == 200) {
+    // 알맞는 데이터 쿼리 후 res에 넘겨주기
     res.sendFile("index.html");
   }
 });
 
 app.get('/board', (req, res) => {
   if (res.statusCode == 200) {
+    // 알맞는 데이터 쿼리 후 res에 넘겨주기
     res.sendFile("board.html");
   }
 })

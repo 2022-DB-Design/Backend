@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/2022-DB-Design/Backend/issues"
   },
-  "homepage": "https://github.com/2022-DB-Design/Backend#readme"
+  "homepage": "https://github.com/2022-DB-Design/Backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+.header {
+    text-align: center;
+    margin: 0 auto;
+    font-family: "La Belle Aurore";
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.contents {
+    width: 1300px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+
+.footer {
+    color: white;
+    background-color: rgb(27, 27, 27);
+    position: fixed;
+    width: 100%;
+    padding: 10px 20px 10px;
+    bottom: 0;
+}
+
+.footer h6 {
+    font-size: 12px;
+    margin: 10px 0px;
+}
